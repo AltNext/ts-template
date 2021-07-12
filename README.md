@@ -33,3 +33,5 @@ commitlint, a license, code of conduct and contributing guidelines,
 a base `package.json` file, renovate configuration,
 tsconfig files for both project and overall,
 yarn-deduplicate for `yarn.lock` cleaning and a base `yarn.lock` file.
+
+Replace all instances of REPLACE_ME in this repository with your repository's name when using this template.
