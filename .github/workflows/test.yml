@@ -47,8 +47,10 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           flag-name: run-${{ matrix.node-version }}
           parallel: true
-      - name: Build
-        run: yarn build
+      - name: Version
+        run: yarn changeset:version alpha
+      - name: Build and publish
+        run: yarn release --tag alpha
 
   finish:
     needs: test

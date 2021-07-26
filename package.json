@@ -23,6 +23,7 @@
     "prepare": "husky install",
     "prerelease": "yarn build",
     "release": "changeset publish",
+    "changeset:version": "changeset version --snapshot",
     "test": "jest --ci",
     "type": "tsc --noEmit --noImplicitAny"
   },
