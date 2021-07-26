@@ -48,9 +48,14 @@ jobs:
           flag-name: run-${{ matrix.node-version }}
           parallel: true
       - name: Version
+        if: ${{ matrix.node-version == "14" }}
         run: yarn changeset:version alpha
       - name: Build and publish
+        if: ${{ matrix.node-version == "14" }}
         run: yarn release --tag alpha
+      - name: Build
+        if: ${{ matrix.node-version != "14" }}
+        run: yarn build
 
   finish:
     needs: test
