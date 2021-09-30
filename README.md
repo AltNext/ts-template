@@ -28,7 +28,7 @@ This repository is a template repo for Altnext TypeScript projects.
 
 Comes with typescript, linting, prettier, testing, doc generation,
 GitHub workflows and templates, husky hooks,
-changests for changelog generation and version publishing,
+changesets for changelog generation and version publishing,
 commitlint, a license, code of conduct and contributing guidelines,
 a base `package.json` file, renovate configuration,
 tsconfig files for both project and overall,
