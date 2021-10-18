@@ -42,7 +42,7 @@
     "jest": "27.2.5",
     "jest-junit": "13.0.0",
     "lint-staged": "11.2.3",
-    "ts-jest": "27.0.5",
+    "ts-jest": "27.0.7",
     "ts-node": "10.3.0",
     "typedoc": "0.22.5",
     "typedoc-plugin-markdown": "3.11.3",
