@@ -37,7 +37,7 @@
     "@jest/types": "27.4.2",
     "@types/jest": "27.0.3",
     "cspell": "5.13.2",
-    "eslint-config-altnext": "2.2.1",
+    "eslint-config-altnext": "2.2.2",
     "husky": "7.0.4",
     "jest": "27.4.3",
     "jest-junit": "13.0.0",
